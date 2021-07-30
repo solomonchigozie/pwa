@@ -1,9 +1,9 @@
 const staticDevCoffee = "Pwa";
 const assets = [
     "/",
-    "/index.html",
-    "./src/master.css",
-    "./images/logo192.png"
+    "index.html",
+    "src/master.css",
+    "images/logo192.png"
 ];
 
 self.addEventListener("install", installEvent => {
